@@ -1,0 +1,139 @@
+body {
+    background-color: #EEE;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: 'Teko', sans-serif;
+}
+h4.searchLabel {
+    margin: 20px auto;
+}
+form#ajax {
+    width: 80%;
+    margin: 20px auto 80px auto;
+    padding: 20px;
+}
+form#ajax div.field {
+    text-align: center;
+}
+form#ajax div.field input#centre {
+    text-align: center;
+    font-size: 28px;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+div#results {
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 6px;
+    background-color: #FFF;
+}
+div#results div.umrContainer {}
+div#results div.umrContainer div.umrHeader {
+    background-color: #00b5a9;
+    color: #FFF;
+    padding: 20px;
+}
+div#results div.umrContainer div.umrTable {
+    margin: 0px 20px;
+    padding-top: 30px;
+}
+div#results div.umrContainer div.umrTable div.umrTableLeft {
+    display: inline-block;
+    width: 75%;
+}
+div#results div.umrContainer div.umrTable div.umrTableLeft h2 {
+    font-size: 32px;
+    margin-bottom: 4px;
+}
+div#results div.umrContainer div.umrTable span.normal {
+    font-size: 12px;
+}
+div#results div.umrContainer div.umrTable div.umrTableRight {
+    display: inline-block;
+}
+div#results div.umrContainer div.umrTable div.umrTableRight h3 {}
+div#results div.umrContainer div.umrFooter {
+    text-align: center;
+}
+div#results div.umrContainer div.umrFooter span.button {
+    display: block;
+    padding: 10px 20px;
+    margin: 10px auto;
+    background-color: #BBB;
+}
+div#results div.umrContainer div.umrFooter span.button:hover {
+    background-color: #999;
+}
+div#results div.umrContainer div.umrFooter span.button a {
+    display: block;
+    width: 100%;
+}
+div#results div.umrContainer div.umrFooter span.button a:link {
+    color: #FFF;
+    font-weight: 700;
+    text-decoration: none;
+}
+div#results div.umrContainer div.umrFooter span.button a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+div#results div.umrContainer div.umrFooter span.button a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+body#dvsDetails {
+    background-color: #00b5a9;
+}
+body#dvsDetails div.umrTable {
+    width: 800px;
+    margin: 25px auto;
+}
+body#dvsDetails div.umrTable div.umrTableLeft h2 {
+    font-size: 32px;
+    line-height: 90%;
+    margin: 60px 0px 0px 0px;
+    color: #FFF;
+}
+body#dvsDetails div.umrTable div.umrTableLeft span.normal {
+    color: #FFF;
+}
+form#details {
+    width: 800px;
+    margin: 40px auto;
+    background-color: #EEE;
+}
+form#details input[type=checkbox]
+{
+    display: inline-block;
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    transform: scale(2);
+    padding: 10px;
+}
+
+form#details label {
+    display: inline-block;
+    font-weight: bold;
+    width: 360px;
+    padding-left: 15px;
+}
+form#details div.detailRow {
+    width: 100%;
+    padding: 25px 15px 25px 30px;
+    border-top: solid 1px #00b5a9;
+}
+form#details div.detailsSmall {
+    display: inline-block;
+    font-size: smaller;
+}
+input#selectFiches {
+    width: 260px;
+    margin: 33px 0px 33px 30px;
+    font-size: larger;
+    padding: 15px 20px;
+}
